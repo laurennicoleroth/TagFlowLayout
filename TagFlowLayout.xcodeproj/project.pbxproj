@@ -14,6 +14,8 @@
 		96CDD8F51E03191900619AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CDD8F31E03191900619AC4 /* LaunchScreen.storyboard */; };
 		96CDD9001E03191900619AC4 /* TagFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDD8FF1E03191900619AC4 /* TagFlowLayoutTests.swift */; };
 		96CDD90B1E03191900619AC4 /* TagFlowLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDD90A1E03191900619AC4 /* TagFlowLayoutUITests.swift */; };
+		96CDD91B1E031F3400619AC4 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CDD91A1E031F3400619AC4 /* TagCell.xib */; };
+		96CDD91D1E03221300619AC4 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDD91C1E03221300619AC4 /* TagCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		96CDD9061E03191900619AC4 /* TagFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CDD90A1E03191900619AC4 /* TagFlowLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFlowLayoutUITests.swift; sourceTree = "<group>"; };
 		96CDD90C1E03191900619AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CDD91A1E031F3400619AC4 /* TagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		96CDD91C1E03221300619AC4 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				96CDD8F11E03191900619AC4 /* Assets.xcassets */,
 				96CDD8F31E03191900619AC4 /* LaunchScreen.storyboard */,
 				96CDD8F61E03191900619AC4 /* Info.plist */,
+				96CDD91A1E031F3400619AC4 /* TagCell.xib */,
+				96CDD91C1E03221300619AC4 /* TagCell.swift */,
 			);
 			path = TagFlowLayout;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CDD91B1E031F3400619AC4 /* TagCell.xib in Resources */,
 				96CDD8F51E03191900619AC4 /* LaunchScreen.storyboard in Resources */,
 				96CDD8F21E03191900619AC4 /* Assets.xcassets in Resources */,
 				96CDD8F01E03191900619AC4 /* Main.storyboard in Resources */,
@@ -264,6 +271,7 @@
 			files = (
 				96CDD8ED1E03191900619AC4 /* ViewController.swift in Sources */,
 				96CDD8EB1E03191900619AC4 /* AppDelegate.swift in Sources */,
+				96CDD91D1E03221300619AC4 /* TagCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
